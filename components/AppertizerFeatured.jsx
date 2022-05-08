@@ -11,6 +11,8 @@ const AppertizerFeatured = () => {
     "/img/featured2.jpg",
     "/img/featured3.jpg",
     "/img/featured4.jpg",
+    "/img/featured5.jpg",
+    
   ];
 
   const handleArrow = (direction) =>{

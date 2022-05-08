@@ -5,6 +5,7 @@ import Link from "next/link";
 
 const Navbar = () => {
   const quantity = useSelector((state) => state.cart.quantity);
+  
   return (
     <div className={styles.container}>
       <div className={styles.item}>
@@ -32,6 +33,7 @@ const Navbar = () => {
           <li className={styles.listItem}></li>
           <li className={styles.listItem}>Contact</li>
         </ul>
+        
       </div>
       <Link href="/cart" passHref>
         <div className={styles.item}>
